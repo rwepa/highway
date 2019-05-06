@@ -2,10 +2,10 @@
 使用 ggplot2 套件進行資料視覺化.
 使用 forecast 套件進行 ARIMA 模型自動預測.
 
-# R
-# RStudio
-# ggplot2 套件
-# forecast 套件
+##### R
+##### RStudio
+##### ggplot2 套件
+##### forecast 套件
 
 演講地點: 育達科科技大學資訊管理系所
 
@@ -18,4 +18,4 @@
 3.R/RStudio簡介
 4.資料物件,套件,輔助說明
 5.開放資料分析-高速公路
-# end
+##### end
