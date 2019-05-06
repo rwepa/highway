@@ -1,6 +1,9 @@
 本篇文章介紹R軟體在開放式資料的應用, 資料來源為交通部統計查詢網. 使用高速公路-交通事故資料進行相關分析.
+
 使用 ggplot2 套件進行資料視覺化.
+
 使用 forecast 套件進行 ARIMA 模型自動預測.
+
 資料來源: http://rwepa.blogspot.com/2019/05/highway.html
 
 ##### # R
