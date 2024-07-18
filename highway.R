@@ -76,7 +76,9 @@ setwd("C:/rdata")
 # 先儲存成 Excel, 再另儲存成 .csv
 
 # 匯入資料
-highway <- read.table("交通事故.csv", header=TRUE, sep=",", stringsAsFactors=FALSE)
+# highway <- read.table("交通事故.csv", header=TRUE, sep=",", stringsAsFactors=FALSE)
+urls <- "https://raw.githubusercontent.com/rwepa/DataDemo/master/%E4%BA%A4%E9%80%9A%E4%BA%8B%E6%95%85.csv"
+highway <- read.table(urls, header=TRUE, sep=",", stringsAsFactors=FALSE)
 
 # 刪除多餘的最後一筆資料
 highway <- highway[-220, ]
